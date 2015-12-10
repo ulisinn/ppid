@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Prascend</title>
+    <meta name="viewport" content="initial-scale=1 user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <link rel="stylesheet" href="bower_components/reset-css/reset.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script data-main="config" type="text/javascript"
+            src="bower_components/requirejs/require.min.js"></script>
+</head>
+<body>
+<div id="wrapper" class="hidden" >
+    <div id="horseCanvasWrapper">
+        <canvas id="horseCanvas" width="1200" height="874"></canvas>
+        <div id="backgroundImageWrapper">
+
+        </div>
+        <svg version="1.1" id="horseSvg" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="1200" height="874"
+             viewBox="0 0 1200 874" preserveAspectRatio="xMidYMid meet">
+            <filter id="blurFilter" y="-20" height="40" x="-20" width="40">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="20"/>
+            </filter>
+
+            <rect id="backgroundImageOverlay" x="-1" y="0" width="101%" height="100%" fill="black" opacity="0"></rect>
+
+            <g id="textPanel_0">
+                <g id="textPanel_0_Header" transform="translate(360,170)">
+                    <text class="panelHeader">
+                        <tspan x="0" y="0">Could your horse have</tspan>
+                        <tspan x="0" y="40">Pituitary Pars Intermedia</tspan>
+                        <tspan x="0" y="80">Dysfunction (PPID)?</tspan>
+                    </text>
+                </g>
+                <g id="textPanel_0_Body" transform="translate(360,170)">
+                    <text class="panelBody">
+                        <tspan x="0" y="120">Learn the signs</tspan>
+                        <tspan x="179" y="120" font-size="0.65em">&#9654</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="textPanel_1">
+                <g id="textPanel_1_Header" transform="translate(360,370)" style="opacity:0;">
+                    <text class="panelHeader">
+                        <tspan x="0" y="0">What is PPID?</tspan>
+                    </text>
+                </g>
+                <g id="textPanel_1_Body" transform="translate(360,370)" style="opacity:0;">
+                    <text class="panelBody" text-anchor="start">
+                        <tspan x="0" y="40">Pituitary Pars Intermedia Dysfunction (PPID)</tspan>
+                        <tspan x="0" y="80">formerly known as Equine Cushing’s Disease, causes</tspan>
+                        <tspan x="0" y="120">the horse's pituitary gland, which utilizes hormones</tspan>
+                        <tspan x="0" y="160">to control body functions, to work overtime – leading</tspan>
+                        <tspan x="0" y="200">to a variety of problems.</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="textPanel_2">
+                <g id="textPanel_2_Header" transform="translate(360,370)" style="opacity:0;">
+                    <text class="panelHeader">
+                        <tspan x="0" y="0">Watch for early signs</tspan>
+                    </text>
+                </g>
+                <g id="textPanel_2_Body" transform="translate(360,370)" style="opacity:0;">
+                    <text class="panelBody" text-anchor="start">
+                        <tspan x="0" y="40">The early clinical signs of PPID are more subtle</tspan>
+                        <tspan x="0" y="80">compared to the advanced signs of the disease.</tspan>
+                        <tspan x="0" y="120">That’s why knowing and recognizing these early</tspan>
+                        <tspan x="0" y="160">signs is important.</tspan>
+                    </text>
+                </g>
+            </g>
+
+            <g id="textPanel_4" transform="translate(-10,40)">
+                <g id="textPanel_4_Header" transform="translate(360,370)" style="opacity:0;">
+                    <text class="panelHeader">
+                        <tspan x="0" y="0">Consult your veterinarian</tspan>
+                    </text>
+                </g>
+                <g id="textPanel_4_Body" transform="translate(360,370)" style="opacity:0;">
+                    <text class="panelBody" text-anchor="start">
+                        <tspan x="0" y="40">If your horse has any of the signs mentioned,</tspan>
+                        <tspan x="0" y="80">speak with your veterinarian to determine the</tspan>
+                        <tspan x="0" y="120">next steps and if PPID testing is warranted for</tspan>
+                        <tspan x="0" y="160">your horse.</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="earlySigns_header" opacity="0">
+                <text text-anchor="middle" x="50%" font-family="TrajanProBold" y="19.5%"
+                      font-size="2em">Early signs
+                </text>
+            </g>
+            <g id="advancedSigns_header" opacity="0">
+                <text text-anchor="middle" x="50%" font-family="TrajanProBold" y="19.5%"
+                      font-size="2em">Advanced signs
+                </text>
+            </g>
+            <g id="circleWrapper">
+                <g id="svg_earlySigns" class="circleContainer" opacity="0"></g>
+                <g id="svg_advancedSigns" class="circleContainer" opacity="0"></g>
+            </g>
+        </svg>
+    </div>
+    <div id="scrollPanelContainer">
+        <div id="scrollPanel_0" class="scrollPanel"></div>
+        <div id="scrollPanel_1" class="scrollPanel"></div>
+        <div id="scrollPanel_2" class="scrollPanel"></div>
+        <div id="scrollPanel_3" class="scrollPanel"></div>
+        <div id="scrollPanel_4" class="scrollPanel"></div>
+        <div id="scrollPanel_5" class="scrollPanel"></div>
+        <div id="scrollPanel_6" class="scrollPanel">
+            <section id="treatmentVideo">
+                <!--<img src="images/VideoFPO.jpg" alt=""/>-->
+                <div class="videoWrapper">
+                    <iframe id="player" type="text/html" src="http://www.youtube.com/embed/Et-hGq6FTqE?enablejsapi=1"
+                            frameborder="0"></iframe>
+                </div>
+            </section>
+            <h2 class="header">Does your horse have PPID?</h2>
+            <section id="treatmentBody">
+                <div>Ask your vet about Prascend® (pergolide mesylate), the only FDA-approved medication for the
+                    treatment
+                    of clinical signs associated with PPID.
+                </div>
+
+                <div> Check out the story of Skotch, a well-loved horse who was successfully treated for signs of PPID
+                    using PRASCEND.
+                </div>
+
+                <div> For more stories, visit the Buzz in the Barn:</div>
+
+                <div><img src="images/BuzzInBarnBtn.jpg" alt=""/></div>
+                <img id="prascendLogoPhone" src="images/PrascendLogo.svg" width="100%" alt=""/>
+
+            </section>
+            <section id="treatmentFooter">
+                <p>Important safety information</p>
+
+                <p>PRASCEND is for use in horses only. Treatment with PRASCEND may cause loss of appetite. Most cases
+                    are mild. Weight loss, lack of energy, and behavioral changes also may be observed. If severe, a
+                    temporary dose reduction may be necessary. PRASCEND has not been evaluated in breeding, pregnant, or
+                    lactating horses and may interfere with reproductive hormones in these horses. PRASCEND Tablets
+                    should not be crushed due to the potential for increased human exposure. Refer to package insert for
+                    complete product information.</p>
+            </section>
+            <section id="treatmentLegal">
+                <p>Prascend is a registered trademark of Boehringer Ingelheim Vetmedica, Inc. ©2015
+                    Boehringer Ingelheim
+                    Vetmedica, Inc.</p>
+                <img id="mobileLogo" src="images/BoehringerLogo.svg" alt=""/>
+
+            </section>
+        </div>
+    </div>
+    <div id="topLogo">
+        <img src="images/BoehringerLogo.svg" alt=""/>
+    </div>
+    <div id="desktopNav">
+        <ul>
+            <li id="d_home" class="hidden navItem desktopNavItem desktopNavFont navBgColorSelected">HOME</li>
+            <li id="d_whatIsPpid" class="hidden navItem desktopNavItem desktopNavFont navBgColor">What is PPID?</li>
+            <li id="d_earlySigns" class="hidden navItem desktopNavItem desktopNavFont navBgColor">Early Signs</li>
+            <li id="d_advancedSigns" class="hidden navItem desktopNavItem desktopNavFont navBgColor">Advanced Signs</li>
+            <li id="d_askVet" class="hidden navItem desktopNavItem desktopNavFont navBgColor">Ask Your Veterinarian</li>
+            <li id="d_treatment" class="hidden navItem desktopNavItem desktopNavFont navBgColor">Treatment</li>
+            <li><img id="prascendLogoDesktop" src="images/PrascendLogo.svg" alt=""/></li>
+
+        </ul>
+    </div>
+    <div id="mobileNav" class="navBgColor">
+        <table width="100%">
+            <tr>
+                <td id="m_whatIsPpid" class="hidden navItem mobileNavItem mobileNavFont navBgColor"><p>What is<br/>PPID?
+                </p>
+                </td>
+                <td id="m_earlySigns" class="hidden navItem mobileNavItem mobileNavFont navBgColor"><p>Early<br/>Signs
+                </p></td>
+                <td id="m_advancedSigns" class="hidden navItem mobileNavItem mobileNavFont navBgColor"><p>Advanced<br/>Signs
+                </p></td>
+                <td id="m_Hamburger" class="hidden navItem mobileNavItem mobileNavFont navBgColor"><img
+                        src="images/HamburgerIcn.png"
+                        alt=""/>
+                </td>
+            </tr>
+        </table>
+
+        <div id="mobileDropdown" class="hidden">
+            <div id="m_home" class="hidden navItem hiddenMobileNavItem navBgColor">Home</div>
+            <div id="m_askVet" class="hidden navItem hiddenMobileNavItem navBgColor">Ask Your Veterinarian</div>
+            <div id="m_treatment" class="hidden navItem hiddenMobileNavItem navBgColor">Treatment</div>
+        </div>
+    </div>
+</div>
+
+
+<div id="magnifierWrapper" class="hidden">
+    <div id="magnifyingGlass">
+        <img src="images/MagGlass-2.png" align="top" width="100%" alt=""/>
+    </div>
+</div>
+
+<div id="popupWrapper" class="hidden">
+    <div id="popupOuter">
+        <img id="popupContentCloseBtn" src="images/ClosePopUpBtn.png" alt=""/>
+        <!--<img src="images/popupFPO.jpg" style="opacity:0;" alt=""/>-->
+        <div id="popupInner">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

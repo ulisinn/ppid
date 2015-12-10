@@ -1,0 +1,478 @@
+[
+  {
+    "frame": 0,
+    "navLabel": "HOME",
+    "navId": "home",
+    "title": ["Could your horse have Pituitary Pars Intermedia Dysfunction (PPID)?"],
+    "body": "Learn the signs",
+    "generalSigns": null,
+    "points": null
+  },
+  {
+    "frame": 1,
+    "navLabel": "What is PPID?",
+    "navId": "_whatIsPpid",
+    "title": ["What is PPID?"],
+    "body": "Pituitary Pars Intermedia Dysfunction (PPID) causes the horse's pituitary gland, which utilizes hormones to control body functions, to work overtime – leading to a variety of problems. It has been historically known as Equine Cushing’s Disease.",
+    "generalSigns": null,
+    "points": null
+  },
+  {
+    "frame": 2,
+    "navLabel": "Early Signs",
+    "navId": "_earlySigns",
+    "title": [
+      "Watch for early signs",
+      "Early signs of PPID"
+    ],
+    "body": "The early clinical signs of PPID are more subtle than in the advanced stages of the disease. Though this makes early detection more difficult, it also makes knowing and recognizing the early signs all the more important.",
+    "generalSigns": [
+      "Decreased athletic performance",
+      "Change in attitude/lethargy"
+    ],
+    "desktopPoints": [
+      {
+        "location": {
+          "x": 346,
+          "y": 541
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_DecreasedAthlete.jpg",
+            "description": "<p><b>Decreased athletic<br>performance</b></p><p><b>Change in<br>attitude/lethargy</b></p>"
+          },
+          {
+            "image": "images/callouts/EarlySigns_BodyConformation.jpg",
+            "description": "<p><b>Change in body<br>conformation<b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 796,
+          "y": 672
+        },
+        "position": "right",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_SubtleShedding.jpg",
+            "description": "<p><b>Subtle delayed shedding:</b></p><p>patches of longer and <br>lighter hair in the summer</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 436,
+          "y": 471
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_RegionalHypertrichosis.jpg",
+            "description": "<p><b>Regional hypertrichosis:</b> abnormal hair growth in<br>small regions</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 507,
+          "y": 429
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_RegionalAdiposity.jpg",
+            "description": "<p><b>Regional adiposity:</b>fat<br>deposits on the neck, tail<br>head and above the eyes</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 520,
+          "y": 777
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_Laminitis.jpg",
+            "description": "<p><b>Laminitis</b></p>"
+          }
+        ]
+      }
+    ],
+    "phonePoints": [
+      {
+        "location": {
+          "x": 406,
+          "y": 451
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_DecreasedAthlete.jpg",
+            "description": "<p><b>Decreased athletic<br>performance</b></p><p><b>Change in<br>attitude/lethargy</b></p>"
+          },
+          {
+            "image": "images/callouts/EarlySigns_BodyConformation.jpg",
+            "description": "<p><b>Change in body<br>conformation<b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 756,
+          "y": 572
+        },
+        "position": "right",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_SubtleShedding.jpg",
+            "description": "<p><b>Subtle delayed shedding:</b></p><p>patches of longer and <br>lighter hair in the summer</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 496,
+          "y": 421
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_RegionalHypertrichosis.jpg",
+            "description": "<p><b>Regional hypertrichosis:</b> abnormal hair growth in<br>small regions</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 537,
+          "y": 379
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_RegionalAdiposity.jpg",
+            "description": "<p><b>Regional adiposity:</b><br>fatdeposits on the neck, tail<br>head and above the eyes</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 545,
+          "y": 627
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/EarlySigns_Laminitis.jpg",
+            "description": "<p><b>Laminitis</b></p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "navLabel": "Advanced Signs",
+    "navId": "_advancedSigns",
+    "title": ["Advanced signs of PPID"],
+    "body": "The early clinical signs of PPID are more subtle than in the advanced stages of the disease. Though this makes early detection more difficult, it also makes knowing and recognizing the early signs all the more important.",
+    "generalSigns": [
+      "Change in attitude/lethargy",
+      "Recurrent infections",
+      "Hyperglycemia: high blood sugar"
+    ],
+    "desktopPoints": [
+      {
+        "location": {
+          "x": 355,
+          "y": 578
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Lethargy.jpg",
+            "description": "<p><b>Change in<br>attitude/lethargy</b></p><p><b>Hyperglycemia:</b><br>high blood sugar</p>"
+          },
+          {
+            "image": "images/callouts/AdvancedSigns_Infection.jpg",
+            "description": "<p><b>Recurrent infections<b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 575,
+          "y": 468
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Shedding.jpg",
+            "description": "<p><b>Lack of seasonal haircoat <br>shedding</b></p><p><b>General hypertrichosis:</b><br>abnormal hair growth not<br>specific to just one region</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 499,
+          "y": 421
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_RegionalAdiposity.jpg",
+            "description": "<p><b>Regional adiposity:</b> fat deposits on the neck, tail head and above the eyes</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 520,
+          "y": 779
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Laminitis.jpg",
+            "description": "<p><b>Laminitis</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 670,
+          "y": 457
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_SkeletalMuscleAtrophy.jpg",
+            "description": "<p><b>Skeletal muscle atrophy:</b>muscle weakness, initially observed over the topline</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 646,
+          "y": 574
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_RoundedAbdomen.jpg",
+            "description": "<p><b>Rounded abdomen</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 498,
+          "y": 480
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_AbnormalSweating.jpg",
+            "description": "<p><b>Abnormal sweating:</b> increased or decreased sweating</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 348,
+          "y": 461
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Thirst.jpg",
+            "description": "<p><b>Excessive thirst</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 355,
+          "y": 391
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Blindness.jpg",
+            "description": "<p><b>Neurological</b><br>deficit/Blindness</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 754,
+          "y": 485
+        },
+        "position": "right",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Infertility.jpg",
+            "description": "<p><b>Absent reproductive</b><br>cycle/Infertility</p>"
+          }
+        ]
+      }
+    ],
+    "phonePoints": [
+      {
+        "location": {
+          "x": 405,
+          "y": 458
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Lethargy.jpg",
+            "description": "<p><b>Change in<br>attitude/lethargy</b></p><p><b>Hyperglycemia:</b><br>high blood sugar</p>"
+          },
+          {
+            "image": "images/callouts/AdvancedSigns_Infection.jpg",
+            "description": "<p><b>Recurrent infections<b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 575,
+          "y": 398
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Shedding.jpg",
+            "description": "<p><b>Lack of seasonal haircoat <br>shedding</b></p><p><b>General hypertrichosis:</b><br>abnormal hair growth not<br>specific to just one region</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 517,
+          "y": 366
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_RegionalAdiposity.jpg",
+            "description": "<p><b>Regional adiposity:</b><br>fat deposits on the neck, tail head and above the eyes</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 542,
+          "y": 629
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Laminitis.jpg",
+            "description": "<p><b>Laminitis</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 670,
+          "y": 387
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_SkeletalMuscleAtrophy.jpg",
+            "description": "<p><b>Skeletal muscle atrophy:</b><br>muscle weakness, initially observed over the topline</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 626,
+          "y": 474
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_RoundedAbdomen.jpg",
+            "description": "<p><b>Rounded abdomen</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 518,
+          "y": 420
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_AbnormalSweating.jpg",
+            "description": "<p><b>Abnormal sweating:</b> increased or decreased sweating</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 408,
+          "y": 391
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Thirst.jpg",
+            "description": "<p><b>Excessive thirst</b></p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 417,
+          "y": 335
+        },
+        "position": "left",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Blindness.jpg",
+            "description": "<p><b>Neurological</b><br>deficit/Blindness</p>"
+          }
+        ]
+      },
+      {
+        "location": {
+          "x": 714,
+          "y": 415
+        },
+        "position": "right",
+        "callout": [
+          {
+            "image": "images/callouts/AdvancedSigns_Infertility.jpg",
+            "description": "<p><b>Absent reproductive</b><br>cycle/Infertility</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "navLabel": "Ask Your Veterinarian",
+    "navId": "_askVet",
+    "title": ["Consult your veterinarian"],
+    "body": "If your horse has any of the signs mentioned, speak with your veterinarian to determine the next steps and if PPID testing is warranted for your horse.",
+    "generalSigns": null,
+    "points": null
+  },
+  {
+    "frame": 5,
+    "navLabel": "Treatment",
+    "navId": "_treatment",
+    "title": null,
+    "body": null,
+    "generalSigns": null,
+    "points": null
+  }
+]
